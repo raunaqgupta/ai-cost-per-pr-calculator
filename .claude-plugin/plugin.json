@@ -7,6 +7,5 @@
   "homepage": "https://github.com/raunaqgupta/pr-cost-calculator",
   "repository": "https://github.com/raunaqgupta/pr-cost-calculator",
   "license": "GPL-3.0",
-  "keywords": ["hooks", "github", "pull-request", "cost", "tokens"],
-  "hooks": "./hooks/hooks.json"
+  "keywords": ["hooks", "github", "pull-request", "cost", "tokens"]
 }

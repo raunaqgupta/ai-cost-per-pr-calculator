@@ -1,4 +1,4 @@
-# pr-cost-calculator
+# ai-cost-per-pr-calculator
 
 A Claude Code plugin that tracks token usage per commit on the current branch and posts (and keeps updated) a PR comment with the approximate USD cost of the AI work behind that PR.
 

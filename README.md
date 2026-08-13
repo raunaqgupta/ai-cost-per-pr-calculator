@@ -1,4 +1,4 @@
-# ai-cost-per-pr-calculator
+# ai-cost-calculator
 
 A Claude Code plugin that tracks token usage per commit on the current branch and posts (and keeps updated) a PR comment with the approximate USD cost of the AI work behind that PR.
 
@@ -23,14 +23,14 @@ State is kept locally per-branch in `.git/claude-pr-cost/<branch>.json` (gitigno
 ## Install
 
 ```
-claude plugin marketplace add raunaqgupta/pr-cost-calculator
-claude plugin install pr-cost-calculator@pr-cost-calculator
+claude plugin marketplace add raunaqgupta/ai-cost-calculator
+claude plugin install ai-cost-calculator@ai-cost-calculator
 ```
 
 Or point directly at a checkout:
 
 ```
-claude plugin install --plugin-dir /path/to/pr-cost-calculator
+claude plugin install --plugin-dir /path/to/ai-cost-calculator
 ```
 
 ## Notes

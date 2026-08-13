@@ -1,11 +1,11 @@
 {
-  "name": "pr-cost-calculator",
-  "displayName": "PR Cost Calculator",
+  "name": "ai-cost-calculator",
+  "displayName": "AI Cost Calculator",
   "version": "1.0.0",
   "description": "Calculates AI usage cost per PR and posts it as a PR comment, broken down by commit.",
   "author": { "name": "Raunaq Gupta" },
-  "homepage": "https://github.com/raunaqgupta/pr-cost-calculator",
-  "repository": "https://github.com/raunaqgupta/pr-cost-calculator",
+  "homepage": "https://github.com/raunaqgupta/ai-cost-calculator",
+  "repository": "https://github.com/raunaqgupta/ai-cost-calculator",
   "license": "GPL-3.0",
   "keywords": ["hooks", "github", "pull-request", "cost", "tokens"]
 }

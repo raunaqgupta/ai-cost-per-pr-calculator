@@ -1,9 +1,9 @@
 {
-  "name": "pr-cost-calculator",
+  "name": "ai-cost-calculator",
   "owner": { "name": "Raunaq Gupta" },
   "plugins": [
     {
-      "name": "pr-cost-calculator",
+      "name": "ai-cost-calculator",
       "source": "./",
       "description": "Calculates AI usage cost per PR and posts it as a PR comment, broken down by commit."
     }

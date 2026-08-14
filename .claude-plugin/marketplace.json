@@ -6,6 +6,11 @@
       "name": "ai-cost-calculator",
       "source": "./",
       "description": "Calculates AI usage cost per PR and posts it as a PR comment, broken down by commit."
+    },
+    {
+      "name": "issue-workflow",
+      "source": "./plugins/issue-workflow",
+      "description": "Generic clarify-issue-branch-validate-code pipeline for actionable requests, applied to every Claude Code session regardless of repo."
     }
   ]
 }

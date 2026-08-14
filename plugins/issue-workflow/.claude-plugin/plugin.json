@@ -1,0 +1,5 @@
+{
+  "name": "issue-workflow",
+  "description": "Generic clarify-issue-branch-validate-code pipeline for actionable requests, applied to every Claude Code session regardless of repo.",
+  "author": { "name": "Raunaq Gupta" }
+}

@@ -1,4 +1,4 @@
-# issue-workflow
+# git-workflow
 
 A Claude Code plugin that applies a generic actionable-request pipeline — clarify, open a GitHub issue (or a sub-issue if one fits inside an issue already being solved), branch, wait for sign-off, implement, PR — to every Claude Code session, independent of which repo it's running in.
 

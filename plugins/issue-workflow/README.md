@@ -4,13 +4,9 @@ A Claude Code plugin that applies a generic actionable-request pipeline — clar
 
 ## Status
 
-Scaffold only. This plugin currently registers no hooks or skills; it exists to reserve its shape (manifest + marketplace entry) ahead of a follow-up that adds the actual mechanism.
+Implemented. A `SessionStart` hook (`hooks/inject_pipeline.py`) injects the pipeline text in `hooks/pipeline.md` into context at the start of every session — the same role a project's own `CLAUDE.md` can play locally, but generalized so it applies everywhere without per-repo setup. Individual repos can still extend it with their own domain-specific steps in their own `CLAUDE.md` (e.g. a model/spec step between branch and validate) — `pipeline.md` explicitly makes room for that.
 
-## Planned design
-
-A `SessionStart` hook will inject the repo-agnostic pipeline text into context at the start of every session — the same role a project's own `CLAUDE.md` can play locally, but generalized so it applies everywhere without per-repo setup. Individual repos can still extend it with their own domain-specific steps in their own `CLAUDE.md` (e.g. a model/spec step between branch and validate).
-
-## Requirements (planned)
+## Requirements
 
 - [GitHub CLI](https://cli.github.com/) (`gh`), authenticated.
 - Claude Code running inside a git repository whose issues/PRs live on GitHub.

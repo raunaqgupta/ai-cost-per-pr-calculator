@@ -23,14 +23,14 @@ State is kept locally per-branch in `.git/claude-pr-cost/<branch>.json` (gitigno
 ## Install
 
 ```
-claude plugin marketplace add raunaqgupta/ai-cost-calculator
-claude plugin install ai-cost-calculator@ai-cost-calculator
+claude plugin marketplace add raunaqgupta/ai-harness
+claude plugin install ai-cost-calculator@ai-harness
 ```
 
 Or point directly at a checkout:
 
 ```
-claude plugin install --plugin-dir /path/to/ai-cost-calculator
+claude plugin install --plugin-dir /path/to/ai-harness
 ```
 
 ## Notes

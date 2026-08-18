@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "Calculates AI usage cost per PR and posts it as a PR comment, broken down by commit.",
   "author": { "name": "Raunaq Gupta" },
-  "homepage": "https://github.com/raunaqgupta/ai-cost-calculator",
-  "repository": "https://github.com/raunaqgupta/ai-cost-calculator",
+  "homepage": "https://github.com/raunaqgupta/ai-harness",
+  "repository": "https://github.com/raunaqgupta/ai-harness",
   "license": "GPL-3.0",
   "keywords": ["hooks", "github", "pull-request", "cost", "tokens"]
 }

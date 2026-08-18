@@ -4,7 +4,7 @@
   "plugins": [
     {
       "name": "ai-cost-calculator",
-      "source": "./",
+      "source": "./plugins/ai-cost-calculator",
       "description": "Calculates AI usage cost per PR and posts it as a PR comment, broken down by commit."
     },
     {

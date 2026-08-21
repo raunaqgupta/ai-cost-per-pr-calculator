@@ -1,4 +1,4 @@
-# prompt-router
+# prompt-classifier
 
 A Claude Code plugin that classifies every prompt as a **question**, an **issue**, or a **pr**, and nudges the session toward the matching lane of the [git-workflow](../git-workflow/README.md) pipeline — without performing any GitHub actions itself.
 
@@ -27,13 +27,14 @@ The classification call is itself a `claude -p` invocation, which would otherwis
 
 ```
 claude plugin marketplace add raunaqgupta/ai-harness
-claude plugin install prompt-router@ai-harness
+claude plugin install prompt-classifier@ai-harness
 ```
 
-Or point directly at a checkout:
+Or point at a local checkout:
 
 ```
-claude plugin install --plugin-dir /path/to/ai-harness/plugins/prompt-router
+claude plugin marketplace add /path/to/ai-harness
+claude plugin install prompt-classifier@ai-harness
 ```
 
 ## Notes

@@ -1,6 +1,6 @@
 {
-  "name": "prompt-router",
-  "displayName": "Prompt Router",
+  "name": "prompt-classifier",
+  "displayName": "Prompt Classifier",
   "version": "1.0.0",
   "description": "Classifies every prompt as a question, an issue, or a PR via a headless Claude call, and nudges the session toward the right lane of the git-workflow pipeline.",
   "author": { "name": "Raunaq Gupta" },

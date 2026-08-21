@@ -38,16 +38,16 @@ User message:
 
 CONTEXT_BY_CATEGORY = {
     "question": (
-        "[prompt-router] This prompt looks like a question. Answer it directly — "
+        "[prompt-classifier] This prompt looks like a question. Answer it directly — "
         "no GitHub issue or PR is needed unless the answer itself reveals one is warranted."
     ),
     "issue": (
-        "[prompt-router] This prompt looks like a new bug report or feature request. "
+        "[prompt-classifier] This prompt looks like a new bug report or feature request. "
         "Follow the issue-driven workflow: clarify if needed, then open a GitHub issue "
         "capturing it before making any code changes."
     ),
     "pr": (
-        "[prompt-router] This prompt looks like a request to implement or fix something. "
+        "[prompt-classifier] This prompt looks like a request to implement or fix something. "
         "Follow the issue-driven workflow: make sure an issue exists (open one first if not), "
         "then branch, implement, and open a PR referencing it."
     ),

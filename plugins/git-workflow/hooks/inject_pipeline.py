@@ -3,7 +3,7 @@
 import json
 from pathlib import Path
 
-PIPELINE_PATH = Path(__file__).parent / "pipeline.md"
+PIPELINE_PATH = Path(__file__).parent / "git-workflow.md"
 
 
 def main():
